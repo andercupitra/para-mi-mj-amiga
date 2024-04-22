@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #fde6e6;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.media img {
+    max-width: 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para hacer que la página sea receptiva */
+@media only screen and (max-width: 600px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+    
+    ul {
+        font-size: 14px;
+    }
+}
